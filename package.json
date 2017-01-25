@@ -1,0 +1,29 @@
+{
+  "name": "gratitude-globe",
+  "version": "1.0.0",
+  "description": "globe that shares geolocated gratitude tweets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "globe",
+    "tweets",
+    "gratitude",
+    "d3"
+  ],
+  "author": "bethy diakabana",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.4.1",
+    "events": "^1.1.1",
+    "express": "^4.14.0",
+    "geocoder": "^0.2.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.7.2",
+    "topojson": "^2.2.0",
+    "twitter": "^1.7.0"
+  }
+}
